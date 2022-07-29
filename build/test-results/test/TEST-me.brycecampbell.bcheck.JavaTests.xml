@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.brycecampbell.bcheck.JavaTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-07-29T22:42:42" hostname="Bryces-MBP" time="0.108">
+  <properties/>
+  <testcase name="createNewRecord()" classname="me.brycecampbell.bcheck.JavaTests" time="0.025"/>
+  <testcase name="retrieveRecordsFromFile()" classname="me.brycecampbell.bcheck.JavaTests" time="0.069"/>
+  <testcase name="saveRecordsToFile()" classname="me.brycecampbell.bcheck.JavaTests" time="0.011"/>
+  <testcase name="createEmptyTransaction()" classname="me.brycecampbell.bcheck.JavaTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
