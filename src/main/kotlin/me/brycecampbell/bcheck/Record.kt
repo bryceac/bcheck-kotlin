@@ -1,6 +1,3 @@
-@file:JvmMultifileClass
-@file:JvmName("Record")
-
 package me.brycecampbell.bcheck
 
 import com.benasher44.uuid.uuid4
@@ -8,8 +5,6 @@ import kotlinx.serialization.*
 import kotlinx.serialization.json.Json
 import java.io.File
 import java.nio.file.Paths
-import kotlin.jvm.JvmMultifileClass
-import kotlin.jvm.JvmName
 import kotlin.jvm.JvmOverloads
 import kotlin.jvm.JvmStatic
 
