@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="finish implementing necessary checks for kotlin.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaTests.java" afterDir="false" />
+    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="start work on testing Java.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/brycecampbell/bcheck/BCheckTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/brycecampbell/bcheck/BCheckTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659130240104</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="start work on testing Java.">
+      <created>1659130616301</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659130616301</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +165,7 @@
     <MESSAGE value="try to get tests setup properly." />
     <MESSAGE value="remove deprecated function." />
     <MESSAGE value="finish implementing necessary checks for kotlin." />
-    <option name="LAST_COMMIT_MESSAGE" value="finish implementing necessary checks for kotlin." />
+    <MESSAGE value="start work on testing Java." />
+    <option name="LAST_COMMIT_MESSAGE" value="start work on testing Java." />
   </component>
 </project>
