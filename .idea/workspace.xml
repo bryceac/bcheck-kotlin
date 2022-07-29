@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="fix method names.">
+    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="get record creation successfully checked.">
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -47,7 +47,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Gradle.JavaTests.createNewRecord">
+  <component name="RunManager" selected="Gradle.JavaTests">
     <configuration name="BCheckTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -134,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.JavaTests.createNewRecord" />
         <item itemvalue="Gradle.JavaTests" />
+        <item itemvalue="Gradle.JavaTests.createNewRecord" />
         <item itemvalue="Gradle.BCheckTests" />
         <item itemvalue="Gradle.BCheckTests.retrieveRecordsFromFile" />
       </list>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659131759402</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="get record creation successfully checked.">
+      <created>1659132410161</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659132410161</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +253,7 @@
     <MESSAGE value="rename Java test file." />
     <MESSAGE value="try fixing issue with JVM visibility." />
     <MESSAGE value="fix method names." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix method names." />
+    <MESSAGE value="get record creation successfully checked." />
+    <option name="LAST_COMMIT_MESSAGE" value="get record creation successfully checked." />
   </component>
 </project>
