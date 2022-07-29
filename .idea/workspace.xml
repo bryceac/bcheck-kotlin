@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="try fixing issue with JVM visibility.">
+    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="fix method names.">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/brycecampbell/bcheck/Transaction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/brycecampbell/bcheck/Transaction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/me/brycecampbell/bcheck/JavaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/brycecampbell/bcheck/JavaTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Gradle.JavaTests">
+  <component name="RunManager" selected="Gradle.JavaTests.createNewRecord">
     <configuration name="BCheckTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -93,7 +95,28 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;me.brycecampbell.bcheck.JavaTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;me.brycecampbell.bcheck.JavaTests&quot; --stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JavaTests.createNewRecord" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;me.brycecampbell.bcheck.JavaTests.createNewRecord&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -111,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JavaTests.createNewRecord" />
         <item itemvalue="Gradle.JavaTests" />
         <item itemvalue="Gradle.BCheckTests" />
         <item itemvalue="Gradle.BCheckTests.retrieveRecordsFromFile" />
@@ -189,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659131661519</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix method names.">
+      <created>1659131759402</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659131759402</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +245,7 @@
     <MESSAGE value="establish first test in Java." />
     <MESSAGE value="rename Java test file." />
     <MESSAGE value="try fixing issue with JVM visibility." />
-    <option name="LAST_COMMIT_MESSAGE" value="try fixing issue with JVM visibility." />
+    <MESSAGE value="fix method names." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix method names." />
   </component>
 </project>

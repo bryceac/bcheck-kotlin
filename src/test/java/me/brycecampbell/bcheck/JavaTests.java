@@ -14,6 +14,6 @@ public class JavaTests {
     public void createNewRecord() {
         Record record = new Record();
 
-        assert record.getTransaction().isReconciled();
+        assert !record.getId().isEmpty();
     }
 }
