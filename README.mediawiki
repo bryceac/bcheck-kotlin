@@ -2,7 +2,9 @@
 
 '''Author:''' Bryce Campbell
 
-'''Copyright:''' 2021
+'''Version:''' 0.1
+
+'''Copyright:''' 2022
 
 '''LICENSE:''' See LICENSE
 
@@ -11,9 +13,113 @@ which is the format used by <a href="https://github.com/bryceac/BCheckbook">BChe
 
 ==Notes==
 
-This library is currently a <abbr title="work in progress">WIP</abbr>.
+This library was originally written to be multiplatform, 
+but due to difficulties in utilizing this library in 
+the Java Virtual machine environment, I scrapped the idea 
+and reset this library to only be usable under JVM, 
+particularly with Java and Kotlin.
 
-Although the library structure is typical of a multiplatform library, this library currently <strong>only</strong> supports Kotlin Native and regular Kotlin projects 
-(It is usable in Java projects, but nothing works).
+It is currently recommended that you use Kotlin when you use this library 
+because one of the contained classes conflicts with something 
+that exists in Java, requiring the fully qualified name to create.
 
-The main priority is Kotlin JVM and it will remain that way, due to its intended purpose to be used in desktop apps running in a JVM and Android applications.
+===Usage===
+
+After adding the Jar file as a dependency, 
+you can start using this library like this:
+
+<pre>
+import me.brycecampbell.bcheck.*
+
+fun main() {
+    val record = Record();
+
+    println(record.id)
+}
+</pre>
+
+This creates a record with default values.
+
+It is possible to fill in everything yourself, but it is not recommended.
+
+See the test file in the kotlin test folder to see what a full specification looks like.
+
+====Reading bcheck Files====
+
+To read bcheck files using this library, all you need to do is this:
+
+<pre>
+import me.brycecampbell.me.bcheck.*
+
+fun main() {
+    var records = Record.loadFromPath("path/to/json/file")
+
+    for (record: Record in records) {
+        println(record.id)
+    }
+}
+</pre>
+
+This should output the ids of the entries found in a bcheck file.
+
+====Writing bcheck files====
+
+While the previous examples are all pretty much the same 
+in Kotlin and Java, given the quirks and hassles, 
+this is the one place where Kotlin gives a definitively superior
+experience when using this library.
+
+To write records to a file, you would do something like this:
+
+<pre>
+import me.brycecampbell.*
+
+fun main() {
+    val records = mutableListOf(
+            Record("FF04C3DC-F0FE-472E-8737-0F4034C049F0",
+                Transaction("2021-07-08", 1260,
+                    "Opening Balance", "Sam Hill Credit Union", "Open Account", 500.0, TransactionType.Deposit, true)
+            ),
+            Record("1422CBC6-7B0B-4584-B7AB-35167CC5647B",
+                Transaction("2021-07-08", 1260,
+                    null, "Fake Street Electronics", "Head set", 200.0, TransactionType.Withdrawal, false)
+            ),
+            Record("BB22187E-0BD3-41E8-B3D8-8136BD700865",
+                Transaction("2021-07-08", 1260,
+                    null, "Velociraptor Entertainment", "Pay Day", 50000.0, TransactionType.Deposit, false)
+            )
+        )
+
+    records.saveToPath("path/to/save/json")
+}
+</pre>
+
+The above works <strong>only</strong> in Kotlin because 
+the method used at the of main function is an extension method added 
+to the mutable list type.
+
+It can be used in Java as well, but is annoyingly called like this:
+
+<pre>
+saveToPath.saveToPath(records, "path/to/save/json")
+</pre>
+
+===Contributing===
+
+If you would like to contribute to this project and help make it better,
+feel free to fork this repo and submit a pull request.
+
+Submissions will be tested by me and are appreciated.
+
+Right now, it would help to work on unit tests, 
+since those are not completely the best at the moment.
+
+===Support===
+
+If you need help, feel free to contact me at the address below:
+
+tonyhawk2100@gmail.
+
+While I am more experienced with Swift and Rust these days, 
+leaning towards Swift on the scale of usage, 
+I will try my best to help you as best as I can.
