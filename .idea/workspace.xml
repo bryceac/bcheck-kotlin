@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="check that records can be imported in Java.">
+    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="finish implementing tests.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/me/brycecampbell/bcheck/JavaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/brycecampbell/bcheck/JavaTests.java" afterDir="false" />
     </list>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659133394550</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finish implementing tests.">
+      <created>1659134253498</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659134253498</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +266,7 @@
     <MESSAGE value="fix method names." />
     <MESSAGE value="get record creation successfully checked." />
     <MESSAGE value="check that records can be imported in Java." />
-    <option name="LAST_COMMIT_MESSAGE" value="check that records can be imported in Java." />
+    <MESSAGE value="finish implementing tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="finish implementing tests." />
   </component>
 </project>

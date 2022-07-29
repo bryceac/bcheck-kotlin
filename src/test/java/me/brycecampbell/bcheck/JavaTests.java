@@ -2,6 +2,8 @@ package me.brycecampbell.bcheck;
 
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -61,5 +63,9 @@ public class JavaTests {
         ));
 
         saveToPath.saveToPath(records, "/Users/bryce/Desktop/test.bcheck");
+
+        File store = new File("/Users/bryce/Desktop/test.bcheck");
+
+        assert store.exists();
     }
 }
