@@ -6,6 +6,8 @@ package me.brycecampbell.bcheck
 import com.benasher44.uuid.uuid4
 import kotlinx.serialization.*
 import kotlinx.serialization.json.Json
+import java.io.File
+import java.nio.file.Paths
 import kotlin.jvm.JvmMultifileClass
 import kotlin.jvm.JvmName
 import kotlin.jvm.JvmOverloads
@@ -28,6 +30,14 @@ data class Record @JvmOverloads constructor(val id: String = uuid4().toString(),
         @JvmStatic
         fun decodeFromString(text: String): List<Record> {
             return Json.decodeFromString<MutableList<Record>>(text)
+        }
+
+        @JvmStatic
+        fun loadFromPath(path: String): MutableList<Record> {
+            val specifiedPath = Paths.get(path)
+            val content = File(specifiedPath.toAbsolutePath().toString())
+
+            return decodeFromString(content.readText()).toMutableList()
         }
     }
 }
