@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="finish implementing tests.">
+    <list default="true" id="287fc0da-89b3-4988-b2e1-9e6f3c2964e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/me/brycecampbell/bcheck/JavaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/brycecampbell/bcheck/JavaTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,255 +20,31 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin Class" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2Cd46XKpdI2gxRS192wmIGWkuFM" />
+  <component name="ProjectId" id="2CdaJw8yBsb44g2eoeGBhuWhgJM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-  </component>
-  <component name="RunManager" selected="Gradle.JavaTests">
-    <configuration name="BCheckTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;me.brycecampbell.bcheck.BCheckTests&quot; --info" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BCheckTests.retrieveRecordsFromFile" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;me.brycecampbell.bcheck.BCheckTests.retrieveRecordsFromFile&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="JavaTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;me.brycecampbell.bcheck.JavaTests&quot; --stacktrace" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="JavaTests.createNewRecord" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;me.brycecampbell.bcheck.JavaTests.createNewRecord&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.JavaTests" />
-        <item itemvalue="Gradle.JavaTests.createNewRecord" />
-        <item itemvalue="Gradle.BCheckTests" />
-        <item itemvalue="Gradle.BCheckTests.retrieveRecordsFromFile" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="" />
-      <created>1659118955418</created>
+      <changelist id="287fc0da-89b3-4988-b2e1-9e6f3c2964e4" name="Changes" comment="" />
+      <created>1659134848995</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659118955418</updated>
+      <updated>1659134848995</updated>
     </task>
-    <task id="LOCAL-00001" summary="try to fix intellij.">
-      <created>1659119021309</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1659119021309</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add test section.">
-      <created>1659119107136</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1659119107136</updated>
-    </task>
-    <task id="LOCAL-00003" summary="try to get tests setup properly.">
-      <created>1659128356588</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1659128356588</updated>
-    </task>
-    <task id="LOCAL-00004" summary="remove deprecated function.">
-      <created>1659129775588</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1659129775588</updated>
-    </task>
-    <task id="LOCAL-00005" summary="finish implementing necessary checks for kotlin.">
-      <created>1659130240104</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1659130240104</updated>
-    </task>
-    <task id="LOCAL-00006" summary="start work on testing Java.">
-      <created>1659130616301</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1659130616301</updated>
-    </task>
-    <task id="LOCAL-00007" summary="establish first test in Java.">
-      <created>1659130857859</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1659130857859</updated>
-    </task>
-    <task id="LOCAL-00008" summary="rename Java test file.">
-      <created>1659130910342</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1659130910342</updated>
-    </task>
-    <task id="LOCAL-00009" summary="try fixing issue with JVM visibility.">
-      <created>1659131661519</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1659131661519</updated>
-    </task>
-    <task id="LOCAL-00010" summary="fix method names.">
-      <created>1659131759402</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1659131759402</updated>
-    </task>
-    <task id="LOCAL-00011" summary="get record creation successfully checked.">
-      <created>1659132410161</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1659132410161</updated>
-    </task>
-    <task id="LOCAL-00012" summary="check that records can be imported in Java.">
-      <created>1659133394550</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1659133394550</updated>
-    </task>
-    <task id="LOCAL-00013" summary="finish implementing tests.">
-      <created>1659134253498</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1659134253498</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="try to fix intellij." />
-    <MESSAGE value="add test section." />
-    <MESSAGE value="try to get tests setup properly." />
-    <MESSAGE value="remove deprecated function." />
-    <MESSAGE value="finish implementing necessary checks for kotlin." />
-    <MESSAGE value="start work on testing Java." />
-    <MESSAGE value="establish first test in Java." />
-    <MESSAGE value="rename Java test file." />
-    <MESSAGE value="try fixing issue with JVM visibility." />
-    <MESSAGE value="fix method names." />
-    <MESSAGE value="get record creation successfully checked." />
-    <MESSAGE value="check that records can be imported in Java." />
-    <MESSAGE value="finish implementing tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="finish implementing tests." />
   </component>
 </project>
