@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="start work on testing Java.">
+    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="establish first test in Java.">
       <change beforePath="$PROJECT_DIR$/src/test/java/me/brycecampbell/bcheck/BCheckTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/brycecampbell/bcheck/BCheckTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659130616301</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="establish first test in Java.">
+      <created>1659130857859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659130857859</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +173,7 @@
     <MESSAGE value="remove deprecated function." />
     <MESSAGE value="finish implementing necessary checks for kotlin." />
     <MESSAGE value="start work on testing Java." />
-    <option name="LAST_COMMIT_MESSAGE" value="start work on testing Java." />
+    <MESSAGE value="establish first test in Java." />
+    <option name="LAST_COMMIT_MESSAGE" value="establish first test in Java." />
   </component>
 </project>
