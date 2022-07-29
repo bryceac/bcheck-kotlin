@@ -2,10 +2,7 @@
 
 package me.brycecampbell.bcheck
 
-import kotlinx.datetime.Clock
-import kotlinx.datetime.LocalDate
-import kotlinx.datetime.TimeZone
-import kotlinx.datetime.todayAt
+import kotlinx.datetime.*
 import kotlinx.serialization.EncodeDefault
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -18,7 +15,7 @@ import kotlin.jvm.JvmOverloads
  * some fields are marked as necessary for JSON serialization and deserialization.
  */
 @Serializable
-data class Transaction @JvmOverloads constructor(@EncodeDefault var date: LocalDate = Clock.System.todayAt(TimeZone.currentSystemDefault()),
+data class Transaction @JvmOverloads constructor(@EncodeDefault var date: LocalDate = Clock.System.todayIn(TimeZone.currentSystemDefault()),
                        @SerialName("check_number") var checkNumber: Int? = null,
                        var category: String? = null,
                        @EncodeDefault var vendor: String = "",
