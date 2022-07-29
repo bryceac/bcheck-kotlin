@@ -1,0 +1,19 @@
+=bcheck=
+
+'''Author:''' Bryce Campbell
+
+'''Copyright:''' 2021
+
+'''LICENSE:''' See LICENSE
+
+'''Description:''' Library written in Kotlin to help read and write <strong>bcheck</strong> files, 
+which is the format used by <a href="https://github.com/bryceac/BCheckbook">BCheckbook</a>.
+
+==Notes==
+
+This library is currently a <abbr title="work in progress">WIP</abbr>.
+
+Although the library structure is typical of a multiplatform library, this library currently <strong>only</strong> supports Kotlin Native and regular Kotlin projects 
+(It is usable in Java projects, but nothing works).
+
+The main priority is Kotlin JVM and it will remain that way, due to its intended purpose to be used in desktop apps running in a JVM and Android applications.
