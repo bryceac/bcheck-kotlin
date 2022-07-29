@@ -22,7 +22,7 @@ data class Transaction @JvmOverloads constructor(@EncodeDefault var date: LocalD
                        var memo: String = "",
                        @EncodeDefault var amount: Double = 0.0,
                        @EncodeDefault var type: TransactionType = TransactionType.Withdrawal,
-                       @SerialName("is_reconciled") var isReconciled: Boolean = false) {
+                       @SerialName("is_reconciled") @get:JvmName("isReconciled") @set:JvmName("isReconciled") var isReconciled: Boolean = false) {
     /**
      * create a transaction with a specified date in String format.
      * This constructor feeds into the primary constructor everything necessary and converts the given date

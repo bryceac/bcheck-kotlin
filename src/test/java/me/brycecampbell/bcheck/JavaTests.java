@@ -9,4 +9,11 @@ public class JavaTests {
 
         assert transaction.getType() == TransactionType.Withdrawal;
     }
+
+    @Test
+    public void createNewRecord() {
+        Record record = new Record();
+
+        assert record.getTransaction()
+    }
 }
