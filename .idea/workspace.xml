@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="remove deprecated function.">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/me/brycecampbell/bcheck/BCheckTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/me/brycecampbell/bcheck/BCheckTests.kt" afterDir="false" />
+    <list default="true" id="44d6811b-8eca-44e8-bede-215a911c754b" name="Changes" comment="finish implementing necessary checks for kotlin.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -133,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659129775588</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finish implementing necessary checks for kotlin.">
+      <created>1659130240104</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659130240104</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +157,7 @@
     <MESSAGE value="add test section." />
     <MESSAGE value="try to get tests setup properly." />
     <MESSAGE value="remove deprecated function." />
-    <option name="LAST_COMMIT_MESSAGE" value="remove deprecated function." />
+    <MESSAGE value="finish implementing necessary checks for kotlin." />
+    <option name="LAST_COMMIT_MESSAGE" value="finish implementing necessary checks for kotlin." />
   </component>
 </project>
